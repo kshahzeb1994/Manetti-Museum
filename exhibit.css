@@ -34,6 +34,10 @@ a {
     color: white;
     font-size: 90%;
 }
+
+.sub-heading { 
+    line-height: 0
+}
 .bar {
 /*    transparent for full window*/
     opacity: 0;
@@ -52,16 +56,14 @@ h1 {
 .display {
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
-
 .display-text {
     font-weight: 400;
     padding: 2%;
-    width: 30%;
+    width: 40%;
 }
 .display-pic {
-    width: 70%;
+    width: 60%;
     margin: 2%;
 }
 
@@ -106,41 +108,12 @@ h5 {
     padding-left: 40px;
     font-weight: 700;
 }
-@media (max-width: 480px){
-    header {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-    h1{
-        font-size: 25px;
-        line-height: 0;
-        
-    }
-    .left-header{
-        font-size: 50%;
-        padding: 0;
-        margin: 0 auto;
-        
-    }
-    .right-header{
-        text-align: center;
-    }
-    #nav{
-        margin: 0 auto;
-        padding-top: 10%;
-        padding-bottom: 4%;
-    }
-    .bar {
-        opacity: 1;
-    }
-    #headParaAlign {
-        text-align: center;
-        font-size: 10px;
-    }
-}
+
 
 @media (max-width: 750px){
+    .sub-heading {
+        line-height: 10px;
+    }
     .display-pic {
         display: none;
     }
@@ -190,4 +163,67 @@ h5 {
         padding: 15px;
         line-height: 30px;
     }
+}
+
+@media (max-width: 480px){
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    h1{
+        font-size: 25px;
+        line-height: 0;
+        
+    }
+    .left-header{
+        font-size: 50%;
+        padding: 0;
+        margin: 0 auto;
+        
+    }
+    .right-header{
+        text-align: center;
+    }
+    #nav{
+        margin: 0 auto;
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+    
+    .sub-heading {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 5% 15px 10%;
+        margin: 0 auto;
+        background-color: antiquewhite
+    }
+    
+    .bar {
+        opacity: 1;
+    }
+    #headParaAlign {
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .all-display {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%
+    }
+    .display {
+        width: 100%;
+        margin: 5px;
+    }
+    .two-pics {
+        display: flex;
+        flex-direction: Column;
+    }
+
+    .side-bar {
+        display: none;
+    }
+    
 }
