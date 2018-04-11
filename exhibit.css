@@ -44,9 +44,43 @@ h1 {
     font-size: 40px;
     line-height: 10px;
 }
-.body{
-    line-weight: 400;
+
+.display {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
+
+.display-text {
+    font-weight: 400;
+    padding: 2%;
+    width: 30%;
+    
+}
+.display-pic {
+    width: 70%;
+    margin: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+.all-pics {
+    display: flex;
+    flex-direction: row;
+}
+
+.two-pics {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+}
+
+.two-pics img {
+    width: 97%;
+}
+
 
 footer {
     background-color: #E8AB9E;
@@ -65,40 +99,6 @@ h5 {
     padding-left: 40px;
     font-weight: 700;
 }
-
-section {
-  padding-left: 40px;
-  padding-top: 40px;
-  float: left;
-  width: 30%;
-  line-height: 2.0;
-}
-
-
-
-aside {
-  padding: 10px;
-  float: right;
-  width: 53%;
-}
-
-#images {
-  display: table;
-  width: 100%;
-  margin: 1px auto;
-}
-
-#images a {
-  display: table-cell;
-  text-align: center;
-  width: 0%;
-}
-
-#images img {
-  width: 100%;
-  max-width: 200px;
-}
-
 @media (max-width: 480px){
     header {
         display: flex;
