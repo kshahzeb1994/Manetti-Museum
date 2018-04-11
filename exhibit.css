@@ -4,21 +4,15 @@ body {
 
 }
 
-.header-alignment {
-    display: flex;
-    flex-flow; row wrap;
-}
 
-header {
-    background-color: #6C2E2F;
 /*
+header {
+    background-color: #E8AB9E;
     font-weight: 400;
     color: white;
     padding: 0;
     margin: 0;
-*/
     width: 100%;
-    margin-top: 0%;
     
     font-size: x-large;
 
@@ -35,11 +29,6 @@ h1 {
     width: 100%;
 }
 
-.body{
-    color: #6C2E2F;
-    font-weight: 400;
-
-}
 
 #footer {
     background-color: #E8AB9E;
@@ -49,3 +38,38 @@ h1 {
     padding: 5px;
     margin: 5px;
 }
+*/
+
+header {
+    background-color: #E8AB9E;
+    width: 100%;
+    margin: 0;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+
+.left-header {
+    padding: 10px;
+    text-align: left;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.bar {
+/*    transparent for full window*/
+    opacity: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px
+}
+
+
