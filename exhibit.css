@@ -1,7 +1,7 @@
 body {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
-
+    color: #6C2E2F
 }
 
 
@@ -13,7 +13,7 @@ header {
     padding: 0;
     margin: 0;
     width: 100%;
-    
+
     font-size: x-large;
 
 }
@@ -21,8 +21,8 @@ header {
 h1 {
     font-weight: 700;
     text-align: left;
-    
-    
+
+
 }
 
 .header-alignment {
@@ -56,6 +56,14 @@ header {
 .left-header {
     padding: 10px;
     text-align: left;
+    padding-left: 40px;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    line-height: 60px;
 }
 
 #nav {
@@ -76,5 +84,57 @@ h1 {
     font-weight: 700;
     font-size: 40px
 }
+.body{
+    line-weight: 400;
+}
+
+footer {
+    background-color: #E8AB9E;
+    width: 100%;
+    margin: 0;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: normal;
+    padding: 10px 10px 10px 10px;
+}
+h5 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    font-weight: 700;
+}
+
+section {
+  padding-left: 40px;
+  padding-top: 40px;
+  float: left;
+  width: 30%;
+  line-height: 2.0;
+}
 
 
+
+aside {
+  padding: 10px;
+  float: right;
+  width: 53%;
+}
+
+#images {
+  display: table;
+  width: 100%;
+  margin: 1px auto;
+}
+
+#images a {
+  display: table-cell;
+  text-align: center;
+  width: 0%;
+}
+
+#images img {
+  width: 100%;
+  max-width: 200px;
+}
