@@ -204,6 +204,7 @@ h5 {
     .bar {
         opacity: 1;
     }
+    
     #headParaAlign {
         text-align: center;
         font-size: 10px;
@@ -218,6 +219,9 @@ h5 {
     .display {
         width: 100%;
         margin: 5px;
+    }
+    .display-text p{
+        font-size: x-large;
     }
     .two-pics {
         display: flex;
