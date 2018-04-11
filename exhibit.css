@@ -10,7 +10,7 @@ header {
     color: #FFF;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;   
+    justify-content: space-around;
 }
 
 .left-header {
@@ -35,7 +35,7 @@ a {
     font-size: 90%;
 }
 
-.sub-heading { 
+.sub-heading {
     line-height: 0
 }
 .bar {
@@ -109,6 +109,10 @@ h5 {
     font-weight: 700;
 }
 
+.left-footer {
+    display: flex;
+}
+
 
 @media (max-width: 750px){
     .sub-heading {
@@ -129,9 +133,9 @@ h5 {
         width: 100%;
         padding-right: 10 px;
         margin:0;
-        text-align: 
+        text-align:
     }
-    
+
     .display-text p {
         padding-top: 0;
         margin: 0;
@@ -146,7 +150,7 @@ h5 {
         width: 100%;
         padding-top: 5px;
     }
-    
+
     .pic-name p{
         font-size: 90%;
     }
@@ -174,13 +178,13 @@ h5 {
     h1{
         font-size: 25px;
         line-height: 0;
-        
+
     }
     .left-header{
         font-size: 50%;
         padding: 0;
         margin: 0 auto;
-        
+
     }
     .right-header{
         text-align: center;
@@ -190,7 +194,7 @@ h5 {
         padding-top: 10%;
         padding-bottom: 4%;
     }
-    
+
     .sub-heading {
         display: flex;
         flex-direction: row;
@@ -200,16 +204,16 @@ h5 {
         line-height: 15px;
 /*        background-color: antiquewhite*/
     }
-    
+
     .bar {
         opacity: 1;
     }
-    
+
     #headParaAlign {
         text-align: center;
         font-size: 10px;
     }
-    
+
     .all-display {
         display: flex;
         flex-direction: column;
@@ -231,5 +235,5 @@ h5 {
     .side-bar {
         display: none;
     }
-    
+
 }
