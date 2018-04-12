@@ -229,11 +229,16 @@ h5 {
     }
     .two-pics {
         display: flex;
-        flex-direction: Column;
+        flex-direction: column;
     }
 
     .side-bar {
         display: none;
+    }
+
+    .left-footer {
+        display: flex;
+        flex-direction: column;
     }
 
 }
