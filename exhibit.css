@@ -47,12 +47,13 @@ a {
 }
 
 .sub-heading {
-    line-height: 0;
+    line-height: 20%;
 }
 
 .bar {
 /*    transparent for full window*/
-    opacity: 0;
+    display: none;
+    
 }
 
 h1 {
@@ -145,7 +146,7 @@ h5 {
         width: 100%;
         padding-right: 10 px;
         margin:0;
-        text-align:
+        padding-top: 50px
     }
 
     .display-text p {
