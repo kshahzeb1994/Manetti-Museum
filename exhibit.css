@@ -24,8 +24,7 @@ header {
     font-size:200%;
     font-weight: bolder;
     line-height: 0;
-    padding-bottom: 10
-    
+    padding-bottom: 10  
 }
 
 .right-header {
@@ -50,6 +49,7 @@ a {
 .sub-heading {
     line-height: 0;
 }
+
 .bar {
 /*    transparent for full window*/
     opacity: 0;
