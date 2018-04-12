@@ -149,7 +149,9 @@ h5 {
         padding-right: 10 px;
         margin:0;
     }
-
+    .body-text {
+        font-size: 12px
+    }
     .display-text p {
         padding-top: 0;
         margin: 0;
@@ -166,7 +168,8 @@ h5 {
     }
 
     .pic-name p{
-        font-size: 90%;
+        font-size: 80%;
+        margin-top: 0;
     }
     #h1 {
         font-size: 26px;
