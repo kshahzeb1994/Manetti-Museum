@@ -75,6 +75,8 @@ a {
     font-weight: 400;
     padding: 2.5% 2%;
     width: 30%;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .display-pic {
     width: 70%;
@@ -142,11 +144,11 @@ h5 {
     .all-display {
         display: flex;
         flex-direction: row;
-        padding:10px;
+        padding: 10px;
     }
     .display-text {
         width: 100%;
-        padding-right: 10 px;
+        padding-right: 10px;
         margin:0;
     }
     .body-text {
@@ -155,6 +157,8 @@ h5 {
     .display-text p {
         padding-top: 0;
         margin: 0;
+        font-size: 14px;
+        line-height: 1.6;
     }
     .all-pics {
         margin:0;
@@ -197,7 +201,7 @@ h5 {
         width: 100%;
     }
     h1{
-        font-size: 25px;
+        font-size: 23px;
         line-height: 0;
 
     }
@@ -247,7 +251,8 @@ h5 {
         margin: 5px;
     }
     .display-text p{
-        font-size: x-large;
+        font-size: 16px;
+        line-height: 1.6;
     }
     .two-pics {
         display: flex;
