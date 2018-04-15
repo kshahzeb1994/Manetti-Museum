@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,41 @@
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="exhibit.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+<script language="javascript">
+    function changeImage(a) {
+        document.getElementById("imgDisplay").src=a;
+
+        if (a == "Wind Toys, 1962. oil on canvas.jpg") {
+            imgText = "<b>Wind Toys</b><i> (1962. oil on canvas)</i>"
+        }
+        if (a == "Pancake Breakfast, 2008. oil on canvas.jpg") {
+            imgText = "<b>Pancake Breakfast</b><i> (2008. oil on canvas)</i>"
+        }
+        if (a == "Around the Cake, 1962, oil on canvas.jpg") {
+            imgText = "<b>Around the Cake</b><i> (1962. oil on canvas)</i>"
+        }
+        if (a == "Three Machines, 1963. oil on canvas.jpg") {
+            imgText = "<b>Three Machines</b><i> (1963. oil on canvas)</i>"
+        }
+        if (a == "Boston Creems, 1962. oil on canvas.jpg") {
+            imgText = "<b>Boston Creems</b><i> (1962. oil on canvas)</i>"
+        }
+        if (a == "Bananas, 1963. Oil on canvas.jpg") {
+            imgText = "<b>Bananas</b><i> (1963. oil on canvas)</i>"
+        }
+        document.getElementById("display-name hide-name").innerHTML = imgText;
+    }
+</script>
+
+<!--
+<link href="exhibit.js" type="text/javascript">
+//-->
+
 </head>
 
 <body>
+
 
 <header>
     <div class="left-header">
@@ -38,9 +71,10 @@
             </p>
         </div>
         <div class="display-pic">
-            <img src="Wind Toys, 1962. oil on canvas.jpg"/>
+            <img id="imgDisplay" src="Wind Toys, 1962. oil on canvas.jpg"/>
             <p id="display-name hide-name">
-                <b>Wind Toys</b><i> (1962. oil on canvas)</i></p>
+                <b>Wind Toys</b><i> (1962. oil on canvas)</i>
+			</p>
         </div>
     </div>
 
@@ -48,7 +82,10 @@
     <div class="all-pics">
         <div class="two-pics">
             <div class="pic-name">
-                <a href="#"><img src="Wind Toys, 1962. oil on canvas.jpg" /></a>
+                <a href="#">
+				  <img src="Wind Toys, 1962. oil on canvas.jpg"
+                  onclick='changeImage("Wind Toys, 1962. oil on canvas.jpg");'/>
+				</a>
                 <p>
                     <span class="one-line"><b>Wind Toys </b></span>
                     <span class="second-line"><i>(1962. oil on canvas)</i><br></span>
@@ -56,7 +93,11 @@
                 </p>
             </div>
             <div class="pic-name">
-                <a href="#"><img src="Pancake Breakfast, 2008. oil on canvas.jpg" /></a>
+                <a href="#" >
+				  <img src="Pancake Breakfast, 2008. oil on canvas.jpg"
+				   onclick='changeImage("Pancake Breakfast, 2008. oil on canvas.jpg");'
+                   onclick='changeText()'/>
+				</a>
                 <p>
                     <span class="one-line"><b>Pancake Breakfast </b></span>
                     <span class="second-line"><i>(2008. oil on canvas)</i><br></span>
@@ -67,7 +108,9 @@
 
         <div class="two-pics">
             <div class="pic-name">
-                <a href="#"><img src="Around the Cake, 1962, oil on canvas.jpg" /></a>
+                <a href="#" onclick='changeImage("Around the Cake, 1962, oil on canvas.jpg");'>
+				  <img src="Around the Cake, 1962, oil on canvas.jpg" />
+				</a>
                 <p class>
                     <span class="one-line"><b>Around the Cake </b></span>
                     <span class="second-line"><i>(1962. oil on canvas)</i><br></span>
@@ -75,7 +118,9 @@
                 </p>
             </div>
             <div class="pic-name">
-                <a href="#"><img src="Three Machines, 1963. oil on canvas.jpg" /></a>
+                <a href="#" onclick='changeImage("Three Machines, 1963. oil on canvas.jpg");' >
+				  <img src="Three Machines, 1963. oil on canvas.jpg" />
+				</a>
                 <p class>
                     <span class="one-line"><b>Three Machines </b></span>
                     <span class="second-line"><i>(1963. oil on canvas)</i><br></span>
@@ -86,7 +131,9 @@
 
         <div class="two-pics">
             <div class="pic-name">
-                <a href="#"><img src="Boston Creems, 1962. oil on canvas.jpg" /></a>
+                <a href="#" onclick='changeImage("Boston Creems, 1962. oil on canvas.jpg");' >
+				  <img src="Boston Creems, 1962. oil on canvas.jpg" />
+				</a>
                 <p class>
                     <span class="one-line"><b>Boston Cremes </b></span>
                     <span class="second-line"><i>(1962. oil on canvas)</i><br></span>
@@ -94,7 +141,8 @@
                 </p>
             </div>
             <div class="pic-name">
-                <a href="#"><img src="Bananas, 1963. Oil on canvas.jpg" /></a>
+                <a href="#" onclick='changeImage("Bananas, 1963. Oil on canvas.jpg");' >
+				  <img src="Bananas, 1963. Oil on canvas.jpg" /></a>
                 <p class>
                     <span class="one-line"><b>Bananas </b></span>
                     <span class="second-line"><i>(1963. oil on canvas)</i><br></span>
