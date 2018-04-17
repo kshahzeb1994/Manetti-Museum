@@ -60,7 +60,7 @@ a {
 
 .bar {
 /*    transparent for full window*/
-    display: none;
+    opacity: 1;
 }
 
 #h1 {
@@ -94,6 +94,9 @@ img {
 }
 .sub-title {
     font-size: 80%;
+}
+.sub-bar{
+    display: none;
 }
 
 .description {
@@ -213,9 +216,7 @@ h5 {
         top: -18px;
 
     }
-    .bar {
-        opacity: 0;
-    }
+
     .one-line {
         display: none;
     }
@@ -300,7 +301,9 @@ h5 {
         display: none;
 
     }
-
+    .sub-bar{
+        display: inline;
+    }
     footer {
         display: flex;
         flex-direction: column;
